@@ -1,0 +1,50 @@
+.ObjectTable
+{
+    border-spacing:0px;
+}
+.ObjectTable th
+{
+    font-size:x-large;
+    background-color:#EEEEEE;
+}
+.ObjectTable .AltRow
+{
+    background-color:Beige;
+}
+.ObjectTable td
+{
+    background-color:Ivory;
+}
+.IncidentTable
+{
+    width:100%;
+    border-spacing:0px;
+}
+.IncidentTable .Header
+{
+    text-align:left;
+    background-color:#EEEEEE;
+    font-size:large;
+}
+.IncidentTable .RightHeader
+{
+    text-align:right;
+    background-color:#EEEEEE;
+}
+.IncidentTable .SubHeader
+{
+    text-align:left;
+    background-color:Beige;
+    font-size:large;
+}
+.IncidentTable th
+{
+    text-align:left;
+    background-color:#EEEEEE;
+    font-size:larger;
+}
+.IncidentTable td
+{
+    text-align:left;
+    background-color:Ivory;
+}

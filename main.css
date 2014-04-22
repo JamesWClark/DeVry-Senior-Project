@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body  {
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-image:url(assets/pagegradient.jpg);
+
+	height:100%;
+	background-repeat: repeat;	
+}
+#wrapper {
+	background-image:url(assets/wrapper.jpg);
+	width:1110px;
+	min-height:1000px;
+	overflow:hidden;
+	background-repeat: repeat-y;
+	margin: 0  auto;
+	border: thin solid #070042;	
+}
+
+#container {
+	
+	width: 1110px;
+	overflow:hidden;
+	padding: 0px;
+	text-align: left;
+	color:#0061FF;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;	
+	
+} 
+
+#logout {
+	float:right;
+}
+
+#topNav{
+	list-style: none;
+	width:500px;
+	float: right;
+	position: relative;
+	bottom: 0;
+	padding: 0 0 0 0;
+	margin-top:-18px;
+	margin-right:;
+	
+	
+ 
+}
+#topNav li {
+	list-style: none;
+	float: right;
+	padding-left:;
+	margin-left:;
+	
+}
+#topNav li a {
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #02073F;
+	display: block;
+	padding: ;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+#topNav li a:hover{
+	color:Maroon;
+	
+}
+
+h1,h2,h5 {
+	color:#0061FF;
+}
+h3,h4{
+color:#02073F;
+}
+
+#sidebar1 {
+	width:20%;
+	padding: 10px;
+	float: left;
+	height:458px;
+	background-image:url(assets/navgradient.jpg);
+	background-repeat: repeat-x;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #ADB2D2;
+	border-bottom-color:;
+	border-bottom-color: #ADB2D2;
+}
+#mainContent {
+	width:800px;
+	margin-left:20px;
+	margin-right:0;
+	margin-top: 10px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	background-color: #ECEFFB;
+	border: thin solid #CBD7FD;
+}
+.mainContent {
+	margin-left:10px;
+	margin-top: 1px;
+	padding-left:10px;
+	float:left;
+
+}
+
+
+
+a {
+	color:#0061FF;
+	text-decoration: none;
+	font-size: 16px;
+}
+a:hover {
+	color:Maroon;
+}
+
+#centerdiv {
+margin-left: auto;
+height: 500px;
+width: 500px;
+margin-right: auto;
+color:#c30;
+}
+#header {
+	height: 124px;
+	background-image:url(images/Whelp_logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #003;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-right: 3px;
+	background-color:;
+}
+.Login {
+	margin-top: 150px;
+	margin-left: auto;
+	height: 300px;
+	width: 300px;
+	margin-right: auto;
+	color:Maroon;
+	text-align:center;
+	background-image:url(assets/login_gradient.jpg);
+}
+.insidelogin {
+	
+	padding-top: 20%;
+	padding-bottom: 20px;
+}
+.links {text-decoration:none}
+.links a: {text-decoration:none}
+.links a:visited{color:#003;
+	text-decoration: none;}
+.links a:hover{color:#C30;}
+.nav {
+	text-decoration:none;
+	text-align: left;
+}
+
+
+/* JW TAGS START HERE */
+.NavLabel{ color:Maroon; }
+.Instruction{ font-family:@Arial Unicode MS, Verdana, Sans-Serif; color:Maroon; }
+
+.ObjectTable{
+	width:100%;
+	/*margin-left: 30%;*/
+	margin-left:0;
+	margin-right:0;
+	/*padding-left:10px;*/
+	float:left;
+	background-color:#FFFFF0; 
+	}
+.ObjectTable th{ background-color:#EEEEEE; border-color:#CDCDCD; border-top:0; 
+
+}
+.ObjectTable td{ color:#2F4F4F; border:1; border-color:#CDCDCD; border-top:0; border-bottom:0; }
+.AltRow{ background-color:#F5F5DC; border-top:0; border-bottom:0; }
+
+.HeaderBox{ border:1; border-color:#CDCDCD; color:#2F4F4F; }
+.SingleObject{ border-bottom:1; border-color:#CDCDCD; }
+/* JW TAGS END HERE */
